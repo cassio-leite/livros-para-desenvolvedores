@@ -1,0 +1,88 @@
+/* Para telas menores que 1024px (Tablets) */
+@media (max-width: 1024px) {
+    .informacoes h1 {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .informacoes .descricao {
+        width: 80%; /* Ocupa mais espaço */
+        font-size: 20px;
+        line-height: 30px;
+        height: auto;
+    }
+
+    .botoes-carrossel {
+        gap: 15px;
+    }
+
+    .botoes-carrossel .botao {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* Para telas menores que 768px (Celulares) */
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .informacoes {
+        text-align: center;
+        margin-top: 50%;
+        background: rgba(0, 0, 0, 0.5); /* Fundo escuro translúcido */
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .informacoes h1 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .informacoes .descricao {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        padding-right: 0;
+    }
+
+    .carrossel {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .imagem {
+        min-height: vh;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .botoes-carrossel {
+        gap: 10px;
+    }
+
+    .botoes-carrossel .botao {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Para telas menores que 480px (Celulares Pequenos) */
+@media (max-width: 480px) {
+    .informacoes h1 {
+        font-size: 16px;
+    }
+
+    .informacoes .descricao {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .botoes-carrossel {
+        flex-wrap: wrap; /* Para evitar que os botões fiquem muito próximos */
+    }
+}
