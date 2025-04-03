@@ -4,14 +4,14 @@ Este projeto é um site interativo que apresenta uma lista de livros essenciais 
 ## 📷 Pré-visualização
 <img src="./src/imagens/livros para desenvolvedores.gif">
 
-# 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 - HTML5: Estrutura do site
 
 - CSS3: Estilização e responsividade
 
 - JavaScript: Funcionalidade do carrossel de imagens
 
-# 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 src/  
 │── css/  
@@ -51,7 +51,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 
 
-# 🔧 Melhorias Futuras
+## 🔧 Melhorias Futuras
 Adicionar novos livros à lista
 
 Implementar um banco de dados para armazenar as informações dos livros
